@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +8,11 @@ function Label({
   id,
   classIdentifier,
 }) {
-  return ();
+  return (
+    <label id={id} className={classIdentifier}>
+      {value}
+    </label>
+  );
 }
 
 Label.propTypes = {
@@ -17,7 +23,7 @@ Label.propTypes = {
 
 Label.defaultProps = {
   id: '',
-  classIdentifier: '',  
+  classIdentifier: '',
 };
 
 export default Label;
