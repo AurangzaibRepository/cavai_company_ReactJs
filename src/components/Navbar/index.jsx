@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from '../Label';
+import Menu from './Menu';
 import './style.css';
 
 function Navbar() {
