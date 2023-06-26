@@ -10,6 +10,7 @@ function Navbar() {
         value="CAVAI"
         id="label-company"
       />
+      <Menu />
     </div>
   );
 }
