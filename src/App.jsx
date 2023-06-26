@@ -1,12 +1,16 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
+import {
+  BrowserRouter,
+} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar />
-    </div>
+    </BrowserRouter>
   );
 }
 
