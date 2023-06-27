@@ -8,32 +8,25 @@ import ClientMenuItems from './ClientMenuItems';
 import './style.css';
 
 function Menu() {
-  const [dropdown, setDropdown] = useState(false);
-
-  const handleMouseEnter = () => {
-    setDropdown(!dropdown);
-  };
-
-  const handleMouseLeave = () => {
-    setDropdown(!dropdown);
-  };
+  const [productDropdown, setProductDropdown] = useState(false);
+  const [clientDropdown, setClientDropdown] = useState(false);
 
   return (
     <nav>
       <ul>
         <li
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={() => setProductDropdown(!productDropdown)}
+          onMouseLeave={() => setProductDropdown(!productDropdown)}
         >
           <Button value="Products" classIdentifier="nav-link" />
-          {dropdown && <DropdownMenu menuItems={<ProductMenuItems />} />}
+          {productDropdown && <DropdownMenu menuItems={ProductMenuItems} />}
         </li>
         <li
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          onMouseEnter={() => setClientDropdown(!clientDropdown)}
+          onMouseLeave={() => setClientDropdown(!clientDropdown)}
         >
           <Button value="Clients" classIdentifier="nav-link" />
-          {dropdown && <DropdownMenu menuItems={<ClientMenuItems />} />}
+          {clientDropdown && <DropdownMenu menuItems={ClientMenuItems} />}
         </li>
         <li>
           <Link to="/gallery" className="nav-link">Creative Gallery</Link>
