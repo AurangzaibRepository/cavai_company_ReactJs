@@ -5,6 +5,7 @@ import DropdownMenu from '../DropdownMenu';
 import Button from '../Button';
 import ProductMenuItems from './ProductMenuItems';
 import ClientMenuItems from './ClientMenuItems';
+import ResourceMenuItems from './ResourceMenuItems';
 import './style.css';
 
 function Menu() {
