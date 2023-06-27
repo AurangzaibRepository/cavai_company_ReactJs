@@ -35,8 +35,12 @@ function Menu() {
         <li>
           <Link to="/gallery" className="nav-link">Creative Gallery</Link>
         </li>
-        <li>
+        <li
+          onMouseEnter={() => setResourceDropdown(!resourceDropdown)}
+          onMouseLeave={() => setResourceDropdown(!resourceDropdown)}
+        >
           <Button value="Resources" classIdentifier="nav-link" />
+          {resourceDropdown && <DropdownMenu menuItems={ResourceMenuItems} />}
         </li>
         <li>
           <Button value="Company" classIdentifier="nav-link" />
