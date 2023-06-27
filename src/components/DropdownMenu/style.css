@@ -1,0 +1,26 @@
+
+#dv-submenu {
+    position: absolute;
+    padding-top: 16px;
+    top: 55px;
+}
+
+#ul-submenu {
+    background-color: #000;
+    box-shadow: 0px 1px 4px #888;
+    display: block !important;
+    margin-top: 7px !important;
+    padding-left: 0px;
+}
+
+#ul-submenu a {
+    color: #fff !important;
+    font-size: 23px !important;
+    margin: 0px !important;
+    padding: 10px 20px;
+}
+  
+#ul-submenu a:hover {
+    background: #fff;
+    color: #000 !important;
+}
