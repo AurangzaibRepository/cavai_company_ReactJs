@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import DropdownMenu from '../DropdownMenu';
 import ProductMenuItems from './ProductMenuItems';
+import ClientMenuItems from './ClientMenuItems';
 import './style.css';
 
 function Menu() {
@@ -27,7 +28,7 @@ function Menu() {
           {dropdown && <DropdownMenu menuItems={<ProductMenuItems />} />}
         </li>
         <li>
-          <Link to="/clients">Clients</Link>
+          <Link to="#">Clients</Link>
         </li>
         <li>
           <Link to="/gallery">Creative Gallery</Link>
