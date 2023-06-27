@@ -25,24 +25,24 @@ function Menu() {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <Link to="#">Products</Link>
+          <Button value="Products" classIdentifier="nav-link" />
           {dropdown && <DropdownMenu menuItems={<ProductMenuItems />} />}
         </li>
         <li
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <Link to="#">Clients</Link>
+          <Button value="Clients" classIdentifier="nav-link" />
           {dropdown && <DropdownMenu menuItems={<ClientMenuItems />} />}
         </li>
         <li>
-          <Link to="/gallery">Creative Gallery</Link>
+          <Link to="/gallery" className="nav-link">Creative Gallery</Link>
         </li>
         <li>
-          <Link to="/resources">Resources</Link>
+          <Button value="Resources" classIdentifier="nav-link" />
         </li>
         <li>
-          <Link to="/company">Company</Link>
+          <Button value="Company" classIdentifier="nav-link" />
         </li>
       </ul>
     </nav>
