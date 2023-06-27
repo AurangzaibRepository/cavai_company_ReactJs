@@ -6,6 +6,7 @@ import Button from '../Button';
 import ProductMenuItems from './ProductMenuItems';
 import ClientMenuItems from './ClientMenuItems';
 import ResourceMenuItems from './ResourceMenuItems';
+import CompanyMenuItems from './CompanyMenuItems';
 import './style.css';
 
 function Menu() {
