@@ -12,6 +12,8 @@ import './style.css';
 function Menu() {
   const [productDropdown, setProductDropdown] = useState(false);
   const [clientDropdown, setClientDropdown] = useState(false);
+  const [resourceDropdown, setResourceDropdown] = useState(false);
+  const [companyDropdown, setCompanyDropdown] = useState(false);
 
   return (
     <nav>
