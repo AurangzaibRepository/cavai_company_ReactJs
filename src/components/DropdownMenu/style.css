@@ -15,9 +15,11 @@
 
 #ul-submenu a {
     color: #fff !important;
+    display: block;
     font-size: 23px !important;
     margin: 0px !important;
     padding: 10px 20px;
+    text-decoration: none;
 }
   
 #ul-submenu a:hover {
