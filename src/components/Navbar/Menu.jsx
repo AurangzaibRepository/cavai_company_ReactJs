@@ -24,7 +24,7 @@ function Menu() {
           onMouseLeave={onMouseLeave}
         >
           <Link to="#">Products</Link>
-          {dropdown && <DropdownMenu />}
+          {dropdown && <DropdownMenu menuItems={<ProductMenuItems />} />}
         </li>
         <li>
           <Link to="/clients">Clients</Link>
