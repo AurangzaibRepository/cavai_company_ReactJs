@@ -1,11 +1,11 @@
-/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import ProductMenuItems from '../Navbar/ProductMenuItems';
 import './style.css';
 
-function Dropdown() {
+function DropdownMenu() {
   return (
     <div id="dv-submenu">
       <ul id="ul-submenu">
@@ -21,4 +21,4 @@ function Dropdown() {
   );
 }
 
-export default Dropdown;
+export default DropdownMenu;
