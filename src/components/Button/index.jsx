@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +7,11 @@ function Button({
   id,
   classIdentifier,
 }) {
-  return ();
+  return (
+    <button type="button" id={id} className={classIdentifier}>
+      {value}
+    </button>
+  );
 }
 
 Button.propTypes = {
