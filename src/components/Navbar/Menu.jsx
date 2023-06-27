@@ -1,13 +1,30 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import DropdownMenu from '../DropdownMenu';
+import ProductMenuItems from './ProductMenuItems';
+import './style.css';
 
 function Menu() {
+  const [dropdown, setDropdown] = useState(false);
+
+  const onMouseEnter = () => {
+    setDropdown(!dropdown);
+  };
+
+  const onMouseLeave = () => {
+    setDropdown(!dropdown);
+  };
+
   return (
     <nav>
       <ul>
-        <li>
-          <Link to="/products">Products</Link>
+        <li
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+        >
+          <Link to="#">Products</Link>
+          {dropdown && <DropdownMenu />}
         </li>
         <li>
           <Link to="/clients">Clients</Link>
