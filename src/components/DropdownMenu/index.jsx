@@ -20,4 +20,8 @@ function DropdownMenu({ menuItems }) {
   );
 }
 
+DropdownMenu.propTypes = {
+  menuItems: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default DropdownMenu;
