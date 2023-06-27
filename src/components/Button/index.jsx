@@ -15,4 +15,9 @@ Button.propTypes = {
   classIdentifier: PropTypes.string,
 };
 
+Button.defaultProps = {
+  id: '',
+  classIdentifier: '',
+};
+
 export default Button;
