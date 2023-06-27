@@ -42,8 +42,12 @@ function Menu() {
           <Button value="Resources" classIdentifier="nav-link" />
           {resourceDropdown && <DropdownMenu menuItems={ResourceMenuItems} />}
         </li>
-        <li>
+        <li
+          onMouseEnter={() => setCompanyDropdown(!companyDropdown)}
+          onMouseLeave={() => setCompanyDropdown(!companyDropdown)}
+        >
           <Button value="Company" classIdentifier="nav-link" />
+          {companyDropdown && <DropdownMenu menuItems={CompanyMenuItems} />}
         </li>
       </ul>
     </nav>
