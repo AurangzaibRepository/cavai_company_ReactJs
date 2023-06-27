@@ -19,10 +19,16 @@
     margin: 0px;
 }
 
-#dv-navbar ul a {
+#dv-navbar .nav-link
+ {
+    background: transparent;
+    border: none;
     color: #000;
+    cursor: pointer;
     display: block;
     font-size: 26px;
+    font-family: inherit;
+    font-weight: 400;
     margin: 0px 32px;
     text-decoration: none;
 }
