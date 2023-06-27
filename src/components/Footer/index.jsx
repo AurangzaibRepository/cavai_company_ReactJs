@@ -1,7 +1,11 @@
 import React from 'react';
+import './style.css';
 
 function Footer() {
-  return ();
+  return (
+    <div id="dv-subfooter">
+    </div>
+  );
 }
 
 export default Footer;
