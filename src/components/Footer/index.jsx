@@ -5,7 +5,9 @@ function Footer() {
   return (
     <div id="dv-subfooter">
       <div>
-        Privacy Policy
+        <div>
+          Privacy Policy | Terms of use
+        </div>
       </div>
     </div>
   );
