@@ -1,0 +1,51 @@
+{
+    "header": "Your ads can do more.",
+    "description": "Craft interactive journeys for all your advertising activities. With Cavai Cloud, personalisation and creativity is front and center. Personal data is not. Our solutions work without cookies, while offering insights into your audiences like never before.",
+    "services": [
+        {
+            "id": 1,
+            "title": "Personalised",
+            "caption": "Conversational ads are personal. The person who sees the ad steers the conversation - and the outcome - in a way that's relevant to them."
+        },
+        {
+            "id": 2,
+            "title": "Insightful",
+            "description": "Conversational data from Cavai Cloud helps you glean new brand insights and inform your marketing efforts."
+        },
+        {
+            "id": 3,
+            "title": "Privacy-first",
+            "description": "Our solutions work without targeting or cookies, and all of our conversational data is anonymous."
+        }
+    ],
+    "case_studies": [
+        {
+            "id": 1,
+            "title": "ECOMMERCE"
+        },
+        {
+            "id": 2,
+            "title": "HOUSEHOLD"
+        },
+        {
+            "id": 3,
+            "title": "BAKING & FINANCE"
+        },
+        {
+            "id": 4,
+            "title": "TELCO"
+        }
+    ],
+    "brand": {
+        "title": "Bring your brand closer to people.",
+        "description": "Start having two-way conversations with your audiences on their terms. Provide meaningful in-ad conversations and interactions, and offer tailored value propositions.",
+        "link_text": "Cavai Products",
+        "link": "/products"
+    },
+    "creativity": {
+        "title": "Creativity is the key to better performance.",
+        "description": "Conversational ads heighten the ad experience with a modern, more personal touch, without being invasive or infringing on privacy.",
+        "link_text": "Cavai Cloud",
+        "link": "/cloud"
+    }
+}
