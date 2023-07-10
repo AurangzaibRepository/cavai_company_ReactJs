@@ -6,7 +6,7 @@ import Paragraph from '../../components/Paragraph';
 
 function Banner({ title, description }) {
   return (
-    <div>
+    <div id="dv-banner" className="text-center">
       <Header value={title} />
       <Paragraph value={description} />
     </div>
