@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div id="dv-main">
+      <div id="dv-main" className="container">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
