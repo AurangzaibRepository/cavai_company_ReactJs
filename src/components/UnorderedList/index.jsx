@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function UnorderedList({
   items,
   id,
-  classIdenntifier,
+  classIdentifier,
 }) {
   return (
     <ul>
@@ -22,6 +22,11 @@ UnorderedList.propTypes = {
   items: PropTypes.instanceOf(Array).isRequired,
   id: PropTypes.string,
   classIdentifier: PropTypes.string,
+};
+
+UnorderedList.defaultProps = {
+  id: '',
+  classIdentifier: '',
 };
 
 export default UnorderedList;
