@@ -10,10 +10,12 @@ function Home() {
   }, []);
 
   return (
-    <Banner
-      title={data.header}
-      description={data.description}
-    />
+    <div id="dv-home">
+      <Banner
+        title={data.header}
+        description={data.description}
+      />
+    </div>
   );
 }
 
