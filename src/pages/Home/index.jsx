@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Banner from './Banner';
 import HomeData from '../../data/home_data.json';
 
@@ -8,7 +8,6 @@ function Home() {
   }, []);
 
   return (
-    <h1>Home</h1>
   );
 }
 
