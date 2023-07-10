@@ -1,3 +1,55 @@
 {
-    
+    "data": [
+        {
+            "header": "Products & Services",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Cavai Cloud"
+                },
+                {
+                    "id": 2,
+                    "title": "Cavai Products"
+                },
+                {
+                    "id": 3,
+                    "title": "Advertisers"
+                },
+                {
+                    "id": 4,
+                    "title": "Partners"
+                }
+            ]
+        },
+        {
+            "header": "Company",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "About us"
+                },
+                {
+                    "id": 2,
+                    "title": "Our Culture"
+                },
+                {
+                    "id": 3,
+                    "title": "Sustainability"
+                }
+            ]
+        },
+        {
+            "header": "Resources",
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Creative Gallery"
+                },
+                {
+                    "id": 2,
+                    "title": "Cases"
+                }
+            ]
+        }
+    ]
 }
