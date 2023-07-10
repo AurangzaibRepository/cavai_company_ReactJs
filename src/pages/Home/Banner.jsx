@@ -6,7 +6,10 @@ import Paragraph from '../../components/Paragraph';
 
 function Banner({ title, description }) {
   return (
-    <Header value={title} />
+    <div>
+      <Header value={title} />
+      <Paragraph value={description} />
+    </div>
   );
 }
 
