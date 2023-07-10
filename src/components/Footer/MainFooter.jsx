@@ -15,7 +15,10 @@ function MainFooter() {
               value={item.header}
               classIdentifier="label-category mb-3"
             />
-            <UnorderedList items={item.items} />
+            <UnorderedList
+              items={item.items}
+              classIdentifier="mb-0"
+            />
           </div>
         ))}
       </div>
