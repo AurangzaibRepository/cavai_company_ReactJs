@@ -1,12 +1,17 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function Header({
-    value,
-    id,
-    classIdentifier,
+  value,
+  id,
+  classIdentifier,
 }) {
-  return ();
+  return (
+    <h1 id={id} className={classIdentifier}>
+      {value}
+    </h1>
+  );
 }
 
 Header.propTypes = {
