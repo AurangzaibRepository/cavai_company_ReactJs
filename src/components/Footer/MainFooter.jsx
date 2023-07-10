@@ -4,6 +4,11 @@ import FooterService from '../../services/FooterService';
 function MainFooter() {
   const [data, setData] = useState();
 
+  const getData = async () => {
+    const footerData = await FooterService.getData();
+    setData(footerData);
+  };
+
   return (
     <div id="dv-footer" className="container">
       <div className="row">
