@@ -13,7 +13,7 @@ function MainFooter() {
           <div className="col-md-4" key={item.id}>
             <Label
               value={item.header}
-              classIdentifier="label-category"
+              classIdentifier="label-category mb-3"
             />
             <UnorderedList items={item.items} />
           </div>
