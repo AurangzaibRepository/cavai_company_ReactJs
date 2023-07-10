@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Label from '../Label';
+import UnorderedList from '../UnorderedList';
 import footerData from '../../data/footer_data.json';
 
 function MainFooter() {
