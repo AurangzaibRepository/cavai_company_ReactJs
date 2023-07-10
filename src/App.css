@@ -17,3 +17,7 @@ body {
 .color-white {
   color: #fff;
 }
+
+#dv-main {
+  padding: 40px 0px;
+}
