@@ -20,6 +20,8 @@ function UnorderedList({
 
 UnorderedList.propTypes = {
   items: PropTypes.instanceOf(Array).isRequired,
+  id: PropTypes.string,
+  classIdentifier: PropTypes.string,
 };
 
 export default UnorderedList;
