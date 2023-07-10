@@ -15,4 +15,9 @@ Paragraph.propTypes = {
   classIdentfier: PropTypes.string,
 };
 
+Paragraph.defaultProps = {
+  id: '',
+  classIdentfier: '',
+};
+
 export default Paragraph;
