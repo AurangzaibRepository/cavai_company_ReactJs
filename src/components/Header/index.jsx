@@ -1,7 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Header() {
+function Header({
+    value,
+    id,
+    classIdentifier,
+}) {
   return ();
 }
 
