@@ -10,6 +10,10 @@ function Home() {
   }, []);
 
   return (
+    <Banner
+      title={data.header}
+      description={data.description}
+    />
   );
 }
 
