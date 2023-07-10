@@ -2,7 +2,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function UnorderedList({ items }) {
+function UnorderedList({
+  items,
+  id,
+  classIdenntifier,
+}) {
   return (
     <ul>
       {items.map((item) => (
