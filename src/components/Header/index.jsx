@@ -9,4 +9,10 @@ function Header({
   return ();
 }
 
+Header.propTypes = {
+  value: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  classIdentifier: PropTypes.string,
+};
+
 export default Header;
