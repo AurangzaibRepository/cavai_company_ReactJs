@@ -14,3 +14,9 @@
     border-top: 1px solid rgba(51,51,51,.24);
     padding: 20px 0px;
 }
+
+#dv-footer .label-category {
+    color: #333;
+    font-size: 21px;
+    font-weight: 600;
+}
