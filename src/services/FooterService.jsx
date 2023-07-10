@@ -3,7 +3,7 @@ const FooterService = {
     let data = await fetch('data/footer_data.json');
     data = await data.json();
 
-    return data;
+    return data.data;
   },
 };
 
