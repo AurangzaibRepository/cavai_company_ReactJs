@@ -19,6 +19,7 @@ function MainFooter() {
       <div className="row">
         {data.map((item) => (
           <div className="col-md-4" key={item.id}>
+            <Label value={item.header} />
           </div>
         ))}
       </div>
