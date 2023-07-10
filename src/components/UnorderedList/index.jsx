@@ -8,7 +8,7 @@ function UnorderedList({
   classIdentifier,
 }) {
   return (
-    <ul>
+    <ul id={id} className={classIdentifier}>
       {items.map((item) => (
         <li key={item.id}>
           {item.title}
