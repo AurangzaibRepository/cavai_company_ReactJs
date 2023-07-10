@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -6,7 +7,11 @@ function Paragraph({
   id,
   classIdentfier,
 }) {
-  return ();
+  return (
+    <p id={id} className={classIdentfier}>
+      {value}
+    </p>
+  );
 }
 
 Paragraph.propTypes = {
