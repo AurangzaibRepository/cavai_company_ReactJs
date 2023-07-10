@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react';
 import FooterService from '../../services/FooterService';
 
 function MainFooter() {
+  const [data, setData] = useState();
+
   return (
     <div id="dv-footer" className="container">
       <div className="row">
