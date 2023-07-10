@@ -15,4 +15,9 @@ Header.propTypes = {
   classIdentifier: PropTypes.string,
 };
 
+Header.defaultProps = {
+  id: '',
+  classIdentifier: '',
+};
+
 export default Header;
