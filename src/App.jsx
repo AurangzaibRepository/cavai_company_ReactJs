@@ -14,9 +14,11 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <div id="dv-main">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
       <Footer />
     </BrowserRouter>
   );
