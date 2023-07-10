@@ -3,7 +3,9 @@ import LowerFooter from './LowerFooter';
 import './style.css';
 
 function Footer() {
-  return ();
+  return (
+    <LowerFooter />
+  );
 }
 
 export default Footer;
