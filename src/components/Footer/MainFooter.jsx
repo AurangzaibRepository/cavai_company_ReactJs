@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import FooterService from '../../services/FooterService';
 
 function MainFooter() {
@@ -8,6 +8,10 @@ function MainFooter() {
     const footerData = await FooterService.getData();
     setData(footerData);
   };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <div id="dv-footer" className="container">
