@@ -15,6 +15,7 @@ function MainFooter() {
               value={item.header}
               classIdentifier="label-category"
             />
+            <UnorderedList items={item.items} />
           </div>
         ))}
       </div>
