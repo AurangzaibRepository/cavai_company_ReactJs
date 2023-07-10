@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import Header from '../../components/Header';
 
 function Banner({ title, description }) {
-  return ();
+  return (
+    <Header value={title} />
+  );
 }
 
 Banner.propTypes = {
