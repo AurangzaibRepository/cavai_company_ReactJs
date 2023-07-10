@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import ListItem from '../ListItem';
 
 function UnorderedList({
@@ -11,9 +12,7 @@ function UnorderedList({
   return (
     <ul id={id} className={classIdentifier}>
       {items.map((item) => (
-        <li key={item.id}>
-          {item.title}
-        </li>
+        
       ))}
     </ul>
   );
