@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import HomeData from '../../data/home_data.json';
 
 function Home() {
   useEffect(() => {
