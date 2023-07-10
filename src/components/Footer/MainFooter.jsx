@@ -3,7 +3,7 @@ import Label from '../Label';
 import footerData from '../../data/footer_data.json';
 
 function MainFooter() {
-  const [data, setData] = useState([]);
+  const [data] = useState(footerData.data);
 
   return (
     <div id="dv-footer" className="container">
