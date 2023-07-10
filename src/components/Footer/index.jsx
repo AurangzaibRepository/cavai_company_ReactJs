@@ -5,10 +5,10 @@ import './style.css';
 
 function Footer() {
   return (
-    <>
+    <div id="dv-footer-container">
       <MainFooter />
       <LowerFooter />
-    </>
+    </div>
   );
 }
 
