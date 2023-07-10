@@ -7,7 +7,10 @@ import Paragraph from '../../components/Paragraph';
 function Banner({ title, description }) {
   return (
     <div id="dv-banner" className="text-center">
-      <Header value={title} />
+      <Header
+        value={title}
+        classIdentifier="mb-3"
+      />
       <Paragraph value={description} />
     </div>
   );
