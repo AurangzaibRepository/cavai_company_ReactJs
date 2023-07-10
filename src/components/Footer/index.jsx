@@ -5,7 +5,10 @@ import './style.css';
 
 function Footer() {
   return (
-    <LowerFooter />
+    <>
+      <MainFooter />
+      <LowerFooter />
+    </>
   );
 }
 
