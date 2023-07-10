@@ -1,8 +1,13 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function ListItem({ children }) {
-  return ();
+  return (
+    <li>
+      {children}
+    </li>
+  );
 }
 
 ListItem.propTypes = {
