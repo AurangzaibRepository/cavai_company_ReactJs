@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 function Home() {
   useEffect(() => {
-    document.title = 'Home';
+    document.title = `Home - ${process.env.REACT_APP_APP_NAME}`;
   }, []);
 
   return (
