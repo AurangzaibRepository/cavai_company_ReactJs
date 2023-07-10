@@ -6,19 +6,23 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Cavai Cloud"
+                    "title": "Cavai Cloud",
+                    "link": "/clouds"
                 },
                 {
                     "id": 2,
-                    "title": "Cavai Products"
+                    "title": "Cavai Products",
+                    "link": "/products"
                 },
                 {
                     "id": 3,
-                    "title": "Advertisers"
+                    "title": "Advertisers",
+                    "link": "/advert"
                 },
                 {
                     "id": 4,
-                    "title": "Partners"
+                    "title": "Partners",
+                    "link": "/partners"
                 }
             ]
         },
@@ -28,15 +32,18 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "About us"
+                    "title": "About us",
+                    "link": "/about-us"
                 },
                 {
                     "id": 2,
-                    "title": "Our Culture"
+                    "title": "Our Culture",
+                    "link": "/our-culture"
                 },
                 {
                     "id": 3,
-                    "title": "Sustainability"
+                    "title": "Sustainability",
+                    "link": "/sustainability"
                 }
             ]
         },
@@ -46,11 +53,13 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "Creative Gallery"
+                    "title": "Creative Gallery",
+                    "link": "creative-gallery"
                 },
                 {
                     "id": 2,
-                    "title": "Cases"
+                    "title": "Cases",
+                    "link": "case-studies"
                 }
             ]
         }
