@@ -9,4 +9,10 @@ function Paragraph({
   return ();
 }
 
+Paragraph.propTypes = {
+  value: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  classIdentfier: PropTypes.string,
+};
+
 export default Paragraph;
