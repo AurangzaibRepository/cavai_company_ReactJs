@@ -12,7 +12,9 @@ function UnorderedList({
   return (
     <ul id={id} className={classIdentifier}>
       {items.map((item) => (
-        
+        <ListItem key={item.id}>
+          <Link to={item.link}>{item.title}</Link>
+        </ListItem>
       ))}
     </ul>
   );
