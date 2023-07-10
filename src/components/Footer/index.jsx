@@ -1,4 +1,5 @@
 import React from 'react';
+import MainFooter from './MainFooter';
 import LowerFooter from './LowerFooter';
 import './style.css';
 
