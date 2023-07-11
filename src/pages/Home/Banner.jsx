@@ -14,6 +14,10 @@ function Banner({ title, description }) {
         classIdentifier="mb-3"
       />
       <Paragraph value={description} />
+      <Image
+        src={bannerImage}
+        alt="Banner"
+      />
     </div>
   );
 }
