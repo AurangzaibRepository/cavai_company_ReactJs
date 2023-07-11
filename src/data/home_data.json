@@ -10,12 +10,12 @@
         {
             "id": 2,
             "title": "Insightful",
-            "description": "Conversational data from Cavai Cloud helps you glean new brand insights and inform your marketing efforts."
+            "caption": "Conversational data from Cavai Cloud helps you glean new brand insights and inform your marketing efforts."
         },
         {
             "id": 3,
             "title": "Privacy-first",
-            "description": "Our solutions work without targeting or cookies, and all of our conversational data is anonymous."
+            "caption": "Our solutions work without targeting or cookies, and all of our conversational data is anonymous."
         }
     ],
     "case_studies": [
