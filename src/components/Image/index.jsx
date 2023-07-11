@@ -9,4 +9,10 @@ function Image({
   return ();
 }
 
+Image.propTypes = {
+  src: PropTypes.node.isRequired,
+  id: PropTypes.string,
+  classIdentifier: PropTypes.string,
+};
+
 export default Image;
