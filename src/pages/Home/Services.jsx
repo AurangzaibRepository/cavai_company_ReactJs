@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Label from '../../components/Label';
 import Paragraph from '../../components/Paragraph';
+import Image from '../../components/Image';
 import Service1 from '../../assets/home/service1.png';
 import Service2 from '../../assets/home/service2.png';
 import Service3 from '../../assets/home/service3.png';
