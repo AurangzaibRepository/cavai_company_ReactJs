@@ -1,8 +1,12 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from "react";
 import PropTypes from 'prop-types';
 
 function CaseStudies({ items }) {
-  return ();
+  return (
+    <div className="dv-section" id="dv-case-studies">
+    </div>
+  );
 }
 
 CaseStudies.propTypes = {
