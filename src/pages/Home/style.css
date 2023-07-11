@@ -5,3 +5,7 @@
     margin-right: auto;
     max-width: 700px;
 }
+
+#dv-home #dv-banner #image-banner {
+    width: 100%;
+}
