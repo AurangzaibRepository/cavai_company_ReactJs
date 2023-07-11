@@ -6,11 +6,11 @@ import Paragraph from '../../components/Paragraph';
 
 function Services({ items }) {
   return (
-    <div className="row">
+    <div className="row dv-section">
       {items.map((item) => (
-        <div className="col-md-4">
+        <div className="col-md-4" key={item.id}>
           <Label value={item.title} />
-          <Paragraph value={item.description} />
+          <Paragraph value={item.caption} />
         </div>
       ))}
     </div>
