@@ -26,3 +26,13 @@
 #dv-case-studies img {
     width: 100%;
 }
+
+#dv-case-studies button {
+    background: #ff0ea7;
+    border-color: #ff0ea7;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5px 8px;  
+}
