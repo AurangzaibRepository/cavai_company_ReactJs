@@ -9,8 +9,11 @@ function Services({ items }) {
     <div className="dv-section" id="dv-services">
       <div className="row">
         {items.map((item) => (
-          <div className="col-md-4" key={item.id}>
-            <Label value={item.title} />
+          <div className="col-md-4 text-center" key={item.id}>
+            <Label
+              value={item.title}
+              classIdentifier="mb-3"
+            />
             <Paragraph value={item.caption} />
           </div>
         ))}
