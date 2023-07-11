@@ -15,4 +15,9 @@ Image.propTypes = {
   classIdentifier: PropTypes.string,
 };
 
+Image.defaultProps = {
+  id: '',
+  classIdentifier: '',
+};
+
 export default Image;
