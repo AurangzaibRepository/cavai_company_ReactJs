@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Banner from './Banner';
+import Services from './Services';
 import HomeData from '../../data/home_data.json';
 import './style.css';
 
