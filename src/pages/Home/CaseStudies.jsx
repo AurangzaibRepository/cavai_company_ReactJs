@@ -25,6 +25,7 @@ function CaseStudies({ items }) {
               src={imageList[index]}
               alt="Case Study"
             />
+            <Button value={item.title} />
           </div>
         ))}
       </div>
