@@ -7,6 +7,13 @@ import Image3 from '../../assets/home/casestudies3.webp';
 import Image4 from '../../assets/home/casestudies4.webp';
 
 function CaseStudies({ items }) {
+  const imageList = [
+    Image1,
+    Image2,
+    Image3,
+    Image4,
+  ];
+
   return (
     <div className="dv-section" id="dv-case-studies">
       <div className="row">
