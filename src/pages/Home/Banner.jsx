@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import Header from '../../components/Header';
 import Paragraph from '../../components/Paragraph';
 import Image from '../../components/Image';
+import bannerImage from '../../assets/home/banner.webp';
 
 function Banner({ title, description }) {
   return (
