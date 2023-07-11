@@ -10,6 +10,7 @@ function Services({ items }) {
       {items.map((item) => (
         <div className="col-md-4">
           <Label value={item.title} />
+          <Paragraph value={item.description} />
         </div>
       ))}
     </div>
