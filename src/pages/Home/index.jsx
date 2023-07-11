@@ -19,6 +19,7 @@ function Home() {
         description={data.description}
       />
       <Services items={data.services} />
+      <CaseStudies items={data.case_studies} />
     </div>
   );
 }
