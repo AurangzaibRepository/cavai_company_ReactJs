@@ -23,7 +23,9 @@ function Services({ items }) {
             <Image
               src={imageList[index]}
               alt="Service"
+              classIdentifier="mb-3"
             />
+            <br />
             <Label
               value={item.title}
               classIdentifier="mb-3"
