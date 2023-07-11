@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Label from '../../components/Label';
 import Image from '../../components/Image';
 import Button from '../../components/Button';
 import Image1 from '../../assets/home/casestudies1.webp';
