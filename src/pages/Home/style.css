@@ -9,3 +9,8 @@
 #dv-home #dv-banner #image-banner {
     width: 100%;
 }
+
+#dv-services label {
+    color: #000;
+    font-size: 34px;
+}
