@@ -17,6 +17,7 @@ function Banner({ title, description }) {
       <Image
         src={bannerImage}
         alt="Banner"
+        id="image-banner"
       />
     </div>
   );
