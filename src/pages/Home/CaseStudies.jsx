@@ -5,4 +5,8 @@ function CaseStudies({ items }) {
   return ();
 }
 
+CaseStudies.propTypes = {
+  items: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default CaseStudies;
