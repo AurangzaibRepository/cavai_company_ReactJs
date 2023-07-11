@@ -9,10 +9,16 @@ import Service2 from '../../assets/home/service2.png';
 import Service3 from '../../assets/home/service3.png';
 
 function Services({ items }) {
+  const imageList = [
+    Service1,
+    Service2,
+    Service3,
+  ];
+
   return (
     <div className="dv-section" id="dv-services">
       <div className="row">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <div className="col-md-4 text-center" key={item.id}>
             <Label
               value={item.title}
