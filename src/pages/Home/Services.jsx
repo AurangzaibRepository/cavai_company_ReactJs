@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Label from '../../components/Label';
+import Paragraph from '../../components/Paragraph';
 
 function Services({ items }) {
   return (
