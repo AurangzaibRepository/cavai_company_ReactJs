@@ -18,3 +18,7 @@
 #dv-services p {
     font-size: 23px;
 }
+
+#dv-services img {
+    width: 32%;
+}
