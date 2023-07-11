@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Header from '../../components/Header';
 import Paragraph from '../../components/Paragraph';
+import Image from '../../components/Image';
 
 function Banner({ title, description }) {
   return (
