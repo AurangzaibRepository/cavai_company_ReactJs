@@ -5,4 +5,8 @@ function Services({ items }) {
   return ();
 }
 
+Services.propTypes = {
+  items: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default Services;
