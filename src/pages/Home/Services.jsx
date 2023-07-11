@@ -6,13 +6,15 @@ import Paragraph from '../../components/Paragraph';
 
 function Services({ items }) {
   return (
-    <div className="row dv-section">
-      {items.map((item) => (
-        <div className="col-md-4" key={item.id}>
-          <Label value={item.title} />
-          <Paragraph value={item.caption} />
-        </div>
-      ))}
+    <div className="dv-section" id="dv-services">
+      <div className="row">
+        {items.map((item) => (
+          <div className="col-md-4" key={item.id}>
+            <Label value={item.title} />
+            <Paragraph value={item.caption} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
