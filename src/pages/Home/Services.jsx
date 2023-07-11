@@ -20,6 +20,10 @@ function Services({ items }) {
       <div className="row">
         {items.map((item, index) => (
           <div className="col-md-4 text-center" key={item.id}>
+            <Image
+              src={imageList[index]}
+              alt="Service"
+            />
             <Label
               value={item.title}
               classIdentifier="mb-3"
