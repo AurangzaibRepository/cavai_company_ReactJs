@@ -36,3 +36,9 @@
     letter-spacing: 1px;
     padding: 5px 8px;  
 }
+
+#dv-case-studies label {
+    color: #000;
+    font-size: 34px;
+    width: 100%;
+}

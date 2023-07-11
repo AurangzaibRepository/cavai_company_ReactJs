@@ -19,6 +19,10 @@ function CaseStudies({ items }) {
 
   return (
     <div className="dv-section" id="dv-case-studies">
+      <Label
+        value="What we've been up to."
+        classIdentifier="text-center mb-3"
+      />
       <div className="row">
         {items.map((item, index) => (
           <div className="col-md-3 text-center" key={item.id}>
