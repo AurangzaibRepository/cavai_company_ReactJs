@@ -17,6 +17,7 @@ function Home() {
         title={data.header}
         description={data.description}
       />
+      <Services items={data.services} />
     </div>
   );
 }
