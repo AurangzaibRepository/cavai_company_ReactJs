@@ -19,7 +19,7 @@ function CaseStudies({ items }) {
     <div className="dv-section" id="dv-case-studies">
       <div className="row">
         {items.map((item, index) => (
-          <div className="col-md-3">
+          <div className="col-md-3" key={item.id}>
             <Image
               src={imageList[index]}
               alt="Case Study"
