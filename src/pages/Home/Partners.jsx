@@ -8,6 +8,7 @@ import Partner3 from '../../assets/home/partner3.webp';
 import Partner4 from '../../assets/home/partner4.webp';
 import Partner5 from '../../assets/home/partner5.webp';
 import Partner6 from '../../assets/home/partner6.webp';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Partners() {
   const imageList = [
