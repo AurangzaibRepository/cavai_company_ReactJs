@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Services from './Services';
 import CaseStudies from './CaseStudies';
 import Brand from './Brand';
+import Partners from './Partners';
 import HomeData from '../../data/home_data.json';
 import './style.css';
 
