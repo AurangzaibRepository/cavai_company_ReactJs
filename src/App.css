@@ -25,3 +25,8 @@ body {
 .dv-section {
   margin-top: 60px;
 }
+
+.carousel .slide {
+  align-items: center;
+  display: flex;
+}
