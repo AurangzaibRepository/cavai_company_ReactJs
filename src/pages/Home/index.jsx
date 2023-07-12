@@ -25,6 +25,7 @@ function Home() {
       <Brand brandInformation={data.brand} />
       <hr />
       <Brand brandInformation={data.creativity} />
+      <Partners />
     </div>
   );
 }
