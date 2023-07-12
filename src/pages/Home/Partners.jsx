@@ -39,7 +39,7 @@ function Partners() {
   ];
 
   return (
-    <div className="dv-section">
+    <div className="dv-section pt-3">
       <Carousel
         centerMode
         centerSlidePercentage="25"
