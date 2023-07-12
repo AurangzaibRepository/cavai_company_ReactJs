@@ -41,6 +41,9 @@ function Partners() {
   return (
     <div className="dv-section">
       <Carousel
+        centerMode
+        centerSlidePercentage="25"
+        dynamicHeight={false}
         showStatus={false}
         autoPlay
         infiniteLoop
