@@ -13,7 +13,10 @@ function Brand({ brandInformation }) {
           <Label value={brandInformation.title} />
         </div>
         <div className="col-md-6">
-          <Paragraph value={brandInformation.description} />
+          <Paragraph
+            value={brandInformation.description}
+            className="mb-4 pb-3"
+          />
           <Link to={brandInformation.link}>{brandInformation.link_text}</Link>
         </div>
       </div>
