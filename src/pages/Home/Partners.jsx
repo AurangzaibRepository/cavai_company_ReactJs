@@ -1,4 +1,5 @@
 import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
 import Partner1 from '../../assets/home/partner1.webp';
 import Partner2 from '../../assets/home/partner2.webp';
 import Partner3 from '../../assets/home/partner3.webp';
