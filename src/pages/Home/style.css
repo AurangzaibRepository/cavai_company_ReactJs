@@ -15,7 +15,8 @@
     font-size: 34px;
 }
 
-#dv-services p {
+#dv-services p,
+#dv-brand p {
     font-size: 23px;
 }
 
