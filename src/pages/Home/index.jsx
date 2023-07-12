@@ -21,6 +21,7 @@ function Home() {
       />
       <Services items={data.services} />
       <CaseStudies items={data.case_studies} />
+      <Brand brandInformation={data.brand} />
     </div>
   );
 }
