@@ -5,6 +5,12 @@ import PropTypes from 'prop-types';
 function Brand({ brandInformation }) {
   return (
     <div id="dv-brand" className="dv-section">
+      <div className="row">
+        <div className="col-md-6">
+        </div>
+        <div className="col-md-6">
+        </div>
+      </div>
     </div>
   );
 }
