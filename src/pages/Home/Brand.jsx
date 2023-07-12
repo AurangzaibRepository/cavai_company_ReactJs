@@ -14,6 +14,7 @@ function Brand({ brandInformation }) {
         </div>
         <div className="col-md-6">
           <Paragraph value={brandInformation.description} />
+          <Link to={brandInformation.link}>{brandInformation.link_text}</Link>
         </div>
       </div>
     </div>
@@ -24,6 +25,8 @@ Brand.propTypes = {
   brandInformation: PropTypes.shape({
     title: PropTypes.string,
     description: PropTypes.string,
+    link_text: PropTypes.string,
+    link: PropTypes.string,
   }).isRequired,
 };
 
