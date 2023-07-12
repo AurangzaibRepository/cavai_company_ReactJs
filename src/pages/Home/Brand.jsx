@@ -10,7 +10,7 @@ function Brand({ brandInformation }) {
 }
 
 Brand.propTypes = {
-  brandInformation: PropTypes.object.isRequired,
+  brandInformation: PropTypes.objectOf(PropTypes.object()).isRequired,
 };
 
 export default Brand;
