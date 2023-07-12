@@ -10,6 +10,13 @@
     width: 100%;
 }
 
+#dv-home hr {
+    border-top: 1px solid #000 !important;
+    color: #000;
+    margin: 50px 0px;
+    opacity: 1;
+}
+
 #dv-services label {
     color: #000;
     font-size: 34px;
@@ -42,11 +49,6 @@
     color: #000;
     font-size: 34px;
     width: 100%;
-}
-
-#dv-brand {
-    border-bottom: 1px solid;
-    padding-bottom: 45px;
 }
 
 #dv-brand label {
