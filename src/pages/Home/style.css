@@ -44,6 +44,11 @@
     width: 100%;
 }
 
+#dv-brand {
+    border-bottom: 1px solid;
+    padding-bottom: 45px;
+}
+
 #dv-brand label {
     color: #000;
     font-size: 34px;
@@ -53,6 +58,7 @@
     border: 1px solid #000;
     border-radius: 24px;
     color: #000;
+    display: inline-block;
     font-size: 22px;
     padding: 11px 31px;
     text-decoration: none;

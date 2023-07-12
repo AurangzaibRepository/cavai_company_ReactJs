@@ -15,7 +15,7 @@ function Brand({ brandInformation }) {
         <div className="col-md-6">
           <Paragraph
             value={brandInformation.description}
-            className="mb-4 pb-3"
+            classIdentfier="mb-4 pb-3"
           />
           <Link to={brandInformation.link}>{brandInformation.link_text}</Link>
         </div>
