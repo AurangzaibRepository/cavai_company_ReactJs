@@ -8,7 +8,7 @@ function Brand({ brandInformation }) {
   return (
     <div id="dv-brand" className="dv-section">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 text-center">
           <Label value={brandInformation.title} />
         </div>
         <div className="col-md-6">
