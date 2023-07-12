@@ -9,12 +9,30 @@ import Partner6 from '../../assets/home/partner6.webp';
 
 function Partners() {
   const imageList = [
-    Partner1,
-    Partner2,
-    Partner3,
-    Partner4,
-    Partner5,
-    Partner6,
+    {
+        id: 1,
+        image: Partner1,
+    },
+    {
+        id: 1,
+        image: Partner2,
+    },
+    {
+        id: 1,
+        image: Partner3,
+    },
+    {
+        id: 1,
+        image: Partner4,
+    },
+    {
+        id: 1,
+        image: Partner5,
+    },
+    {
+        id: 1,
+        image: Partner6,
+    },
   ];
 
   return ();
