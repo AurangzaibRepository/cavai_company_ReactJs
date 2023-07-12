@@ -12,6 +12,7 @@ function Brand({ brandInformation }) {
           <Label value={brandInformation.title} />
         </div>
         <div className="col-md-6">
+          <Paragraph value={brandInformation.description} />
         </div>
       </div>
     </div>
