@@ -48,3 +48,12 @@
     color: #000;
     font-size: 34px;
 }
+
+#dv-brand a {
+    border: 1px solid #000;
+    border-radius: 24px;
+    color: #000;
+    font-size: 22px;
+    padding: 11px 31px;
+    text-decoration: none;
+}
